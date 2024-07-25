@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="switch">
+          <button class="dark">Dark Mode</button>
+        </div>
+        <small class="message"></small>
+        <span class="title">Task-List</span>
+        <div class="confirmDialog">
+          <p>Clear All Task?</p>
+          <div class="btn">
+            <button class="confirm">Yes</button>
+            <button class="unconfirm">No</button>
+          </div>
+        </div>
+        <form action="#" class="addTask">
+          <input type="text" name="" id="taskInput" placeholder="Add Task" />
+          <input type="submit" value="ADD TASK" class="btn" />
+        </form>
+
+        <div class="task-List">
+          <input type="search" class="filter" placeholder="Search" />
+          <div class="list-title">Task-Items</div>
+          <ul class="ul"></ul>
+          <button class="rmv-btn">CLEAR TASKS</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
